@@ -14,7 +14,7 @@ import {
  * @param {Array=} data - bit width per node.
  * @category sequential
  */
-import getColors from '../modules/colors';
+import colors from '../modules/colors';
 export default class Rom extends CircuitElement {
     constructor(
         x,

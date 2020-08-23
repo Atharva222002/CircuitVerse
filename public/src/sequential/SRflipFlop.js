@@ -14,7 +14,7 @@ import { correctWidth, fillText } from '../canvasApi';
  * @param {string=} dir - direcion in which element has to drawn
  * @category sequential
  */
-import getColors from '../modules/colors';
+import colors from '../modules/colors';
 export default class SRflipFlop extends CircuitElement {
     constructor(x, y, scope = globalScope, dir = 'RIGHT') {
         super(x, y, scope, dir, 1);

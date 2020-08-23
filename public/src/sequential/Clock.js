@@ -2,6 +2,7 @@ import CircuitElement from "../circuitElement";
 import Node, { findNode } from "../node";
 import simulationArea from "../simulationArea";
 import { correctWidth, lineTo, moveTo } from "../canvasApi";
+import colors from '../modules/colors';
 /**
  * @class
  * Clock

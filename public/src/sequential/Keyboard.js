@@ -14,7 +14,7 @@ import { correctWidth, lineTo, moveTo, fillText3, fontSize } from '../canvasApi'
  * @param {string=} dir - direcion in which element has to drawn
  * @category sequential
  */
-import getColors from '../modules/colors';
+import colors from '../modules/colors';
 export default class Keyboard extends CircuitElement {
     constructor(x, y, scope = globalScope, bufferSize = 32) {
         super(x, y, scope, 'RIGHT', 1);
